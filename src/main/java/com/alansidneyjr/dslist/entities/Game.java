@@ -19,7 +19,7 @@ public class Game {
 	private String title;
 	
 	@Column(name = "game_year")
-	private int year; //palavra "year" reservada pelo banco de dados.
+	private Integer year; //palavra "year" reservada pelo banco de dados.
 	private String genre;
 	private String platforms;
 	private Double score;
@@ -65,11 +65,11 @@ public class Game {
 		this.title = title;
 	}
 
-	public int getYear() {
+	public Integer getYear() {
 		return year;
 	}
 
-	public void setYear(int year) {
+	public void setYear(Integer year) {
 		this.year = year;
 	}
 
